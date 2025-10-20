@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+kaggle.json
+data/raw/
+data/database.sqlite
