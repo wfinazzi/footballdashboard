@@ -3,6 +3,7 @@ import os
 import requests
 
 DB_PATH = "data/database.sqlite"
+os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
 DB_URL = "https://drive.google.com/file/d/14koOa6FWE6PVaAIMTAJUy3IlWkZgFxJd/view?usp=sharing"
 
 if not os.path.exists(DB_PATH):
